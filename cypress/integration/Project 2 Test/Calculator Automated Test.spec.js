@@ -975,7 +975,7 @@ describe(' For Functionality of buttons', () => {
    * 
    * */ 
 
-   it(`Pressing +/- withn an expression on display should show NaN `, () => {
+   it(`Pressing +/- with an expression on display should show NaN `, () => {
      cy.get("button[value='1']").click();
      cy.get("button[value='-']").click();
      cy.get("button[value='1']").click();
